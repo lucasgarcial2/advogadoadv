@@ -1,0 +1,44 @@
+/* Dashboard container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #f4f6f9;
+}
+
+/* Centralized info cards with hover effects */
+.info-cards {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.info-card h3 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin: 0.5rem 0;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin: 0;
+}
